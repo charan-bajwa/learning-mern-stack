@@ -303,27 +303,27 @@ console.log(firstName+" "+middleName+" "+lastName);
 // Same Example with if-else statement:
 
 
-const Day = `Thursday`;
+// const Day = `Thursday`;
 
-if (Day === `Monday`) {
-   console.log(`Go to college, Study & Work 🥲😑`);
-   console.log(`Meet chickoo in college ❤️`);
-}
-else if (Day === `Tuesday`) {
-   console.log(`RIZZ A LVL 10 GYATTTT 🍑`);
-   console.log(`EDGE TO NSYNC'S BYE BYE 🙅🧏‍♂️`);
-}
-else if (Day === `Wednesday`) {
-   console.log(`BOURVITA IN BIHAR 🥛`);
-   console.log(`MEWING 🙅🧏‍♂️`);
-}
-else if (Day === `Thursday` || Day === `Friday`) {
-   console.log(`CONTINUE Mewing Streak 🙅🧏‍♂️`);
-}
-else if (Day === `Saturday` || Day === `Sunday`) {
-   console.log(`WEEKEND 🥳`);
-}
-else {
-   console.log(`NOT A VALID DAY 🤨🙄`);
-}
+// if (Day === `Monday`) {
+//    console.log(`Go to college, Study & Work 🥲😑`);
+//    console.log(`Meet chickoo in college ❤️`);
+// }
+// else if (Day === `Tuesday`) {
+//    console.log(`RIZZ A LVL 10 GYATTTT 🍑`);
+//    console.log(`EDGE TO NSYNC'S BYE BYE 🙅🧏‍♂️`);
+// }
+// else if (Day === `Wednesday`) {
+//    console.log(`BOURVITA IN BIHAR 🥛`);
+//    console.log(`MEWING 🙅🧏‍♂️`);
+// }
+// else if (Day === `Thursday` || Day === `Friday`) {
+//    console.log(`CONTINUE Mewing Streak 🙅🧏‍♂️`);
+// }
+// else if (Day === `Saturday` || Day === `Sunday`) {
+//    console.log(`WEEKEND 🥳`);
+// }
+// else {
+//    console.log(`NOT A VALID DAY 🤨🙄`);
+// }
 
