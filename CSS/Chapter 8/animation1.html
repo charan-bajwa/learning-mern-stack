@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(84, 2, 84);
+        }
+        .box{
+            
+            display: flex;
+            align-items:first baseline;
+            justify-content: first baseline;
+            width: 200px;
+            height: 200px;
+            background-color: violet;
+             /* font-family: 'Pacifico', cursive;  */
+             /* font-size: 45px;
+            font-weight: 100;
+            text-decoration: none; 
+            color: aliceblue;   */
+             animation-name: SimmiAnimate;
+            animation-duration: 2s;
+            animation-timing-function:cubic-bezier(.68,-0.55,.27,1.55);
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        
+        img {
+            animation-name: DragonAnimate;
+            animation-duration: .5s;
+            animation-timing-function:cubic-bezier(.46,.03,.52,.96);
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        
+        @keyframes SimmiAnimate {
+            from{
+                width: 300px;
+                height: 300px;
+            }
+            to{
+                width:100vw ;
+                height: 100vh;
+            }
+        }
+        @keyframes DragonAnimate {
+            from{
+                width: 30px;
+                height:30px;
+                transform: rotate(0deg);
+                
+            }
+            to{
+                width:100px ;
+                height: 100px;
+                transform: rotate(360deg);
+               
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"><img src="dragon.png" alt="error"width="30px"></div> 
+    </div>
+</body>
+</html>

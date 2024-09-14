@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoadAnimation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .progress {
+            background-color: red;
+            height: 2px;
+            animation: loadAnimate 1s ease-in-out  1 ;
+        }
+
+        header {
+            height: 110px;
+            background-color: aquamarine;
+        }
+
+        main {
+            height: 900px;
+            background-color: cadetblue;
+        }
+        @keyframes loadAnimate {
+            0%{
+                width: 0vw;
+            }
+            70%{
+                width: 50vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header>
+
+    </header>
+    <main>
+
+    </main>
+</body>
+
+</html>
